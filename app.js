@@ -142,8 +142,8 @@ const UNITS_DATA = {
     name: 'CURITIBA',
     state: 'PR',
     image: 'assets/images/unit_curitiba.jpg',
-    address: 'Av. Batel, 1550 - Batel, Curitiba - PR',
-    hours: 'Seg a Sex: 05h30 às 22h00 | Sáb: 08h00 às 14h00',
+    address: 'Av. Endereço, 0000 - Bairro, Cidade - UF',
+    hours: 'Seg a Sex: 0XhXX às XXh00 | Sáb: XXh00 às XXh00',
     amenities: [
       'Official HYROX Training Center',
       'Pista de Corrida Indoor',
@@ -158,8 +158,8 @@ const UNITS_DATA = {
     name: 'MOEMA',
     state: 'SP',
     image: 'assets/images/unit_moema.jpg',
-    address: 'Av. Rouxinol, 620 - Moema, São Paulo - SP',
-    hours: 'Seg a Sex: 06h00 às 22h30 | Sáb e Dom: 08h00 às 15h00',
+    address: 'Av. Endereço, 0000 - Bairro, Cidade - UF',
+    hours: 'Seg a Sex: 0XhXX às XXh00 | Sáb: XXh00 às XXh00',
     amenities: [
       'Official HYROX Hub Moema',
       'Estações Olímpicas Eleiko',
@@ -174,8 +174,8 @@ const UNITS_DATA = {
     name: 'MADALENA',
     state: 'SP',
     image: 'assets/images/unit_madalena.jpg',
-    address: 'Rua Harmonia, 840 - Vila Madalena, São Paulo - SP',
-    hours: 'Seg a Sex: 06h00 às 22h00 | Sáb: 08h00 às 14h00',
+    address: 'Av. Endereço, 0000 - Bairro, Cidade - UF',
+    hours: 'Seg a Sex: 0XhXX às XXh00 | Sáb: XXh00 às XXh00',
     amenities: [
       'Boutique Athletic Studio',
       'Turmas Reduzidas de HYROX',
@@ -190,8 +190,8 @@ const UNITS_DATA = {
     name: 'PIRACICABA',
     state: 'SP',
     image: 'assets/images/unit_piracicaba.jpg',
-    address: 'Av. Torquato da Silva Leitão, 450 - Piracicaba - SP',
-    hours: 'Seg a Sex: 06h00 às 21h30 | Sáb: 08h00 às 13h00',
+    address: 'Av. Endereço, 0000 - Bairro, Cidade - UF',
+    hours: 'Seg a Sex: 0XhXX às XXh00 | Sáb: XXh00 às XXh00',
     amenities: [
       'Complexo de Treinamento 1.200m²',
       'Pista Oficial de Sled Prowler',
