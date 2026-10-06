@@ -152,7 +152,7 @@ const UNITS_DATA = {
       'Estacionamento Exclusivo'
     ],
     whatsapp: 'https://wa.me/5541999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Curitiba%20%C3%84rmel.',
-    instagram: '@armel.curitiba',
+    instagram: '@armel.instagram',
     email: 'curitiba@armel.com.br'
   },
   moema: {
@@ -170,7 +170,7 @@ const UNITS_DATA = {
       'Valet Service'
     ],
     whatsapp: 'https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Moema%20%C3%84rmel.',
-    instagram: '@armel.moema',
+    instagram: '@armel.instagram',
     email: 'moema@armel.com.br'
   },
   madalena: {
@@ -188,7 +188,7 @@ const UNITS_DATA = {
       'Cafeteria Especializada'
     ],
     whatsapp: 'https://wa.me/5511988888888?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Madalena%20%C3%84rmel.',
-    instagram: '@armel.madalena',
+    instagram: '@armel.instagram',
     email: 'madalena@armel.com.br'
   },
   piracicaba: {
@@ -206,7 +206,7 @@ const UNITS_DATA = {
       'Área Kids Supervisionada'
     ],
     whatsapp: 'https://wa.me/5519999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Piracicaba%20%C3%84rmel.',
-    instagram: '@armel.piracicaba',
+    instagram: '@armel.instagram',
     email: 'piracicaba@armel.com.br'
   }
 };
