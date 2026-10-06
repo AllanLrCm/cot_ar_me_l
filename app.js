@@ -322,7 +322,7 @@ function initJourneySteppers() {
 }
 
 /* ==========================================================================
-   FRANCHISE FORM & LIVE PIPELINE SIMULATION
+   FRANCHISE FORM
    ========================================================================== */
 function initFranchiseForm() {
   const form = document.getElementById('franchiseForm');
@@ -372,7 +372,7 @@ function initFranchiseForm() {
     setTimeout(() => {
       form.style.display = 'none';
       feedback.style.display = 'block';
-      showToast(`Obrigado, ${name.split(' ')[0]}! Lead cadastrado com sucesso.`);
+      showToast(`Obrigado, ${name.split(' ')[0]}! Contato enviado com sucesso.`);
     }, 900);
   });
 }
