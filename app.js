@@ -152,8 +152,8 @@ const UNITS_DATA = {
       'Estacionamento Exclusivo'
     ],
     whatsapp: 'https://wa.me/5541999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Curitiba%20%C3%84rmel.',
-    instagram: '#',
-    email: 'mailto:curitiba@armel.com.br'
+    instagram: '@armel.curitiba',
+    email: 'curitiba@armel.com.br'
   },
   moema: {
     code: '02',
@@ -170,8 +170,8 @@ const UNITS_DATA = {
       'Valet Service'
     ],
     whatsapp: 'https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Moema%20%C3%84rmel.',
-    instagram: '#',
-    email: 'mailto:moema@armel.com.br'
+    instagram: '@armel.moema',
+    email: 'moema@armel.com.br'
   },
   madalena: {
     code: '03',
@@ -188,8 +188,8 @@ const UNITS_DATA = {
       'Cafeteria Especializada'
     ],
     whatsapp: 'https://wa.me/5511988888888?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Madalena%20%C3%84rmel.',
-    instagram: '#',
-    email: 'mailto:madalena@armel.com.br'
+    instagram: '@armel.madalena',
+    email: 'madalena@armel.com.br'
   },
   piracicaba: {
     code: '04',
@@ -206,8 +206,8 @@ const UNITS_DATA = {
       'Área Kids Supervisionada'
     ],
     whatsapp: 'https://wa.me/5519999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20treino%20na%20unidade%20Piracicaba%20%C3%84rmel.',
-    instagram: '#',
-    email: 'mailto:piracicaba@armel.com.br'
+    instagram: '@armel.piracicaba',
+    email: 'piracicaba@armel.com.br'
   }
 };
 
@@ -222,8 +222,8 @@ function initUnitModal() {
   const modalUnitHours = document.getElementById('modalUnitHours');
   const modalAmenities = document.getElementById('modalAmenities');
   const modalWhatsappBtn = document.getElementById('modalWhatsappBtn');
-  const modalInstagramBtn = document.getElementById('modalInstagramBtn');
-  const modalEmailBtn = document.getElementById('modalEmailBtn');
+  const modalInstagramText = document.getElementById('modalInstagramText');
+  const modalEmailText = document.getElementById('modalEmailText');
   const modalFranchiseBtn = document.getElementById('modalFranchiseBtn');
 
   if (!modal) return;
@@ -243,8 +243,8 @@ function initUnitModal() {
       modalUnitAddress.textContent = data.address;
       modalUnitHours.textContent = data.hours;
       modalWhatsappBtn.href = data.whatsapp;
-      if (modalInstagramBtn) modalInstagramBtn.href = data.instagram || '#';
-      if (modalEmailBtn) modalEmailBtn.href = data.email || '#';
+      if (modalInstagramText) modalInstagramText.textContent = data.instagram || '-';
+      if (modalEmailText) modalEmailText.textContent = data.email || '-';
 
       modalAmenities.innerHTML = '';
       data.amenities.forEach(am => {
